@@ -1,47 +1,49 @@
-# 컴파일 결과물 제외
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# 로그파일 제외
-*.log
+# Folder config file
+Desktop.ini
 
-# 운영체제에서 만드는 시스템 파일들 제외
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
 .DS_Store
-.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Thumbnails
 ._*
+
+# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
-config.xml
 
-# 프로젝트정보 파일 제외
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-.project
-.externalToolBuilders/
-*.launch
-.classpath
-.factorypath
-.buildpath
-.target
-/build/
-target/
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Spring 팀프로젝트 충돌 방지
-MANIFEST.MF
-pom.properties
-target/
+#Jekyll
+_site
+
+# webstorm
+.idea
